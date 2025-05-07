@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelyne</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-header">
+            <div class="nav-logo">
+                <a href="#navbar" class="">Kelyne<span style="color:var(--secondary-color)">.</span></a>
+            </div>
+            <div class="nav-menu-btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <!-- <li><a href="#home">Home</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#clients">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-btns">
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header class="home" id="home">
+        <div class="section-container header-container">
+            <div class="header-content">
+                <h3 data-aos="zoom-in">Hi, I am</h3>
+                <h1 data-aos="zoom-in">Kelyne Poku<br/>
+                </h1>
+                <h2 data-aos="zoom-in">
+                    <span id="typing"></span>
+                </h2>
+                <p data-aos="zoom-in">A passionate doctor and graphic designer dedicated to bringing brands and ideas to life through thoughtful designs and stunning visuals.</p>
+                <div class="header-btns">
+                    <a href="#portfolio" class="btn" data-aos="fade-left">My Works</a>
+                    <a href="#contact" class="btn" data-aos="fade-left">Contact Me</a>
+                </div>
+            </div>
+            <div class="header-image" data-aos="zoom-in">
+                <img src="images/hero1-removebg-preview.png" alt="A picture of Kelyne">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="section-header-container">
+                <h1 class="section-header">About Me</h1>
+            </div>
+            <!-- <h2 class="section-header">About Me</h2> -->
+            <div class="about-container">
+                <div class="about-text" data-aos="fade-right">
+                    <p>
+                        Hi, I’m Kelyne - a passionate brand and graphic designer dedicated to transforming ideas into striking visual identities. With a keen eye for detail and a deep appreciation for clean, timeless design, I help individuals, startups, and businesses bring their brands to life. <br/>
+    
+                        My journey into design has been shaped by a love for aesthetics, storytelling, and strategic thinking. From logos and brand kits to social media content and print materials, my work is guided by purpose and creativity.<br/>
+    
+                        I believe every brand has a story — and I’m here to help you tell yours beautifully.
+    
+                        Whether you’re just starting out or ready to elevate your existing brand, I’m excited to collaborate and create something truly memorable together.
+                    </p>
+                    <div class="about-grid">
+                        <div class="about-item">
+                            <span><i class="ri-user-line"></i></span>
+                            <h5>Name:</h5>
+                            <p>Kelyne Poku</p>
+                        </div>
+                        <div class="about-item">
+                            <span><i class="ri-mail-line"></i></span>
+                            <h5>Email:</h5>
+                            <p>kelynenpoku@gmail.com</p>
+                        </div>
+                    </div>
+                    <h4>My Interests</h4>
+                    <div class="about-flex">
+                        <div>
+                            <span><i class="ri-headphone-line"></i></span> Music
+                        </div>
+                        <div>
+                            <span><i class="ri-briefcase-line"></i></span> Traveling    
+                        </div>
+                        <div>
+                            <span><i class="ri-film-line"></i></span> Movies
+                        </div>
+                        <div>
+                            <span><i class="ri-camera-line"></i></span> Photography
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="images/about_me.jpg" alt="About Me">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="section-container portfolio-container">
+            <h1 class="section-header">My Portfolio</h1>
+
+            <div class="portfolio-nav">
+                <button class="btn mixitup-control-active" data-filter=".all">All</button>
+                <button class="btn" data-filter=".flyers">Flyers</button>
+                <button class="btn" data-filter=".logos">Logos</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-card mix flyers all">
+                    <img src="images/flyer1.jpg" alt="">
+                </div>
+                <div class="portfolio-card mix logos all">
+                    <img src="images/logo1.jpg" alt="">
+                </div>
+                <div class="portfolio-card mix logos all">
+                    <img src="images/logo2.jpg" alt="">
+                </div>
+                <div class="portfolio-card mix flyers all">
+                    <img src="images/flyer2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials"></section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <h1 class="section-header">Let's Work Together</h1>
+            <div class="contact-container">
+                <div class="contact-text" data-aos="fade-right">
+                    <p>If you have any questions or would like to discuss a project, feel free to reach out. I’d love to hear from you!</p>
+                </div>
+                <!-- <div class="contact-form" data-aos="fade-left"> -->
+                    <form action="https://formspree.io/f/xjvowzqk" method="POST" class="contact-form" data-aos="fade-left">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <button id="backToTop"><i class="ri-arrow-up-s-line"></i></button>
+    <footer>
+        <div class="footer-container">
+            <h4>Kelyne Poku</h4>
+            <ul class="footer-socials">
+                <a href="https://www.linkedin.com/in/dr-kelyne-nana-poku-bsc-mbch-b-899702173/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://www.instagram.com/dr_kelyne/" target="_blank"><i class="ri-instagram-fill"></i></a>
+            </ul>
+            <div class="footer-bar">
+                Copyright @ 2025. All Rights Reserved. 
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
